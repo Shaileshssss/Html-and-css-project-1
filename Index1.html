@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="Style1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-success" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="www.google.com">New Arrow</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Items
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Men's<s></s></a></li>
+                <li><a class="dropdown-item" href="#">Women</a></li>
+                <li><a class="dropdown-item" href="#">Kids</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item fw-bold" href="#"><u>ACCESSORY</u></a></li>
+                <li><a class="dropdown-item" href="#">SunGlasses</a></li>
+                <li><a class="dropdown-item" href="#">Wallet</a></li>
+                <li><a class="dropdown-item" href="#">Shoes</a></li>
+                <li><a class="dropdown-item" href="#">Bags</a></li>
+                <li><a class="dropdown-item" href="#">Belt</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+            <button class="btn bg-body-tertiary" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active c-item" data-bs-interval="10000">
+          <img src="a98d.jpg" class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Brand Cover</h5>
+            <p>Arrow signs Hrithik Roshan as brand ambassador</p>
+          </div>
+        </div>
+        <div class="carousel-item c-item" data-bs-interval="2000">
+          <img src="HrithikRoshan-17.jpg" class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Arrow</p>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="fvff.png" class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+      </div>
+      
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <br>
+    <div class="bg-success p-2" style="--bs-bg-opacity: .5;">
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="gh.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Fashion</h5>
+            <p class="card-text">Regular-fit blazer, has a shawl Collar , single-breasted with double button closures, long sleeves, one welt pocket, and two flap pockets, and a double-vented back hem</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary"><b>Price: </b> <del>11,900.00</del></small>
+            <button type="button" class="btn btn-outline-info">33% off</button><br>
+            <small class="text-body-secondary"><b>Price: </b>9,900.00</small><br>
+            <button class="btn btn-primary" type="submit">Click To Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="gh.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Fashion2</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary"><b>Price: </b> <del>15,900.00</del></small>
+            <button type="button" class="btn btn-outline-info">25% off</button><br>
+            <small class="text-body-secondary"><b>Price: </b>12,900.00</small><br>
+            <button class="btn btn-primary" type="submit">Click To Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="uu.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5>Fashion 3<span class="badge bg-secondary">Latest</span></h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary"><b>Price: </b> <del>10,900.00</del></small>
+            <button type="button" class="btn btn-outline-info">50% off</button><br>
+            <small class="text-body-secondary"><b>Price: </b>5,900.00</small><br>
+            <button class="btn btn-primary" type="submit">Click To Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="gh.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Fashion</h5>
+            <p class="card-text">Regular-fit blazer, has a shawl Collar , single-breasted with double button closures, long sleeves, one welt pocket, and two flap pockets, and a double-vented back hem</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary"><b>Price: </b> <del>11,900.00</del></small>
+            <button type="button" class="btn btn-outline-info">33% off</button><br>
+            <small class="text-body-secondary"><b>Rs: </b>9,900.00</small><br>
+            <button class="btn btn-primary" type="submit">Click To Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="gh.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Fashion2</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary"><b>Price: </b> <del>15,900.00</del></small>
+            <button type="button" class="btn btn-outline-info">25% off</button><br>
+            <small class="text-body-secondary"><b>Rs: </b>12,900.00</small><br>
+            <button class="btn btn-primary" type="submit">Click To Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="uu.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5>Fashion 3<span class="badge bg-secondary">Limted Period</span></h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary"><b>Price: </b> <del>10,900.00</del></small>
+            <button type="button" class="btn btn-outline-info">50% off</button><br>
+            <small class="text-body-secondary"><b>Price: </b>5,900.00</small><br>
+            <button class="btn btn-primary" type="submit">Click To Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br>
+
+    <br>
+    <p>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+        Click for the coupon code...
+      </button>
+    </p>
+    <div style="min-height: 120px;">
+      <div class="collapse collapse-horizontal" id="collapseWidthExample">
+        <div class="card card-body" style="width: 300px;">
+          ganesha chaturthi discount coupon code below &#x20B9;800.00
+          <h4>ARRGANESHA800</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-3 mb-2 bg-info text-dark"><b><u>Arrow Contact Details</u></b>
+    <div class="p-3 mb-2 bg-info-subtle text-emphasis-info">
+    <p class="text-start"><b>Contact Number: </b>8073921809</p>
+    <p class="text-start"><b>Address: </b>#156 Ram complex <br>6th cross 5th block Indrinagar <br>
+      Karnataka 560001
+    </p>
+  </div>
+    <p class="text-center">Your Data is Privacy</p>
+    <p class="text-end">@copyright 2023 New Arrow</p>
+  </div>
+
+  <!-- <div class="bg-success p-2 text-white"></div> -->
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
